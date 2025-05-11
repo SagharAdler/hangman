@@ -1,11 +1,11 @@
-### 🧠 `LocalGuesserPositionUnigram` Letter Guessing Algorithm
+### Hangman Letter Guessing Algorithm
 
 The `LocalGuesserPositionUnigram` class implements a letter-guessing algorithm that combines positional *n*-gram statistics derived from a training dictionary to predict the next best letter guess.
 
 At each step, the system accepts a masked word, computes a score for each possible letter based on the available information, and selects the letter with the highest score as its guess.
 
 <div align="center">
-  <img src="Diagram.png" alt="Letter Guessing System Diagram" width="500"/>
+  <img src="Diagram.png" alt="Letter Guessing System Diagram" width="700"/>
   <p><em>Figure 1: Letter guessing class: the masked word is processed through multiple scoring models, their outputs are merged, and the scores are combined to predict the next best letter.</em></p>
 </div>
 
