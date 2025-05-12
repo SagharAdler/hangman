@@ -2,7 +2,8 @@
 
 The `LocalGuesserPositionUnigram` class implements a letter-guessing algorithm that combines positional *n*-gram statistics derived from a training dictionary to predict the next best letter guess.
 
-At each step, the system accepts a masked word, computes a score for each possible letter based on the available information, and selects the letter with the highest score as its guess.
+At each step, the system accepts a masked word, computes a score for each possible letter based on the available information, and selects the letter with the highest score as its guess. You can download the training dictionary from [this dataset](https://www.kaggle.com/datasets/navinpatwari09/hangmandataset/data).
+
 
 <div align="center">
   <img src="Diagram.png" alt="Letter Guessing System Diagram" width="700"/>
